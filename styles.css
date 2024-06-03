@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid pink;
+    border-radius: 5px;
+    background: black;
+    color: pink;
+}
+
+button {
+    padding: 10px;
+    background: pink;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    width: auto; /* Adjust width to fit content */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+button:hover {
+    background: #ff66b2;
+}
+
+#entries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sticky-note {
+    background: pink;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 300px;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    width: calc(100% - 100px);
+    padding: 0 50px;
+}
+
+#add-more {
+    left: 0;
+}
+
+#settings {
+    right: 0;
+}
